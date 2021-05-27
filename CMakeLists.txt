@@ -17,6 +17,7 @@ INCLUDE_DIRECTORIES(${SOURCE_ROOT}/TinyContainer)
 INCLUDE_DIRECTORIES(${SOURCE_ROOT}/TinyStringUtil)
 INCLUDE_DIRECTORIES(${SOURCE_ROOT}/ByteBuffer)
 INCLUDE_DIRECTORIES(${SOURCE_ROOT}/Json)
+INCLUDE_DIRECTORIES(${SOURCE_ROOT}/StringArray)
 
 #---------------------------------------------------------------------------------------
 #
@@ -130,6 +131,18 @@ SET(ByteBuffer_Source
         )
 
 #---------------------------
+# StringArray
+#---------------------------
+
+SET(StringArray_Header
+        ${SOURCE_ROOT}/StringArray/StringArray.h
+        )
+
+SET(StringArray_Source
+        ${SOURCE_ROOT}/StringArray/StringArray.c
+        )
+
+#---------------------------
 # Json
 #---------------------------
 
@@ -173,6 +186,8 @@ SOURCE_GROUP(TinyStringUtil\\headers FILES ${TinyStringUtil_Header})
 SOURCE_GROUP(TinyStringUtil\\sources FILES ${TinyStringUtil_Source})
 SOURCE_GROUP(ByteBuffer\\headers FILES ${ByteBuffer_Header})
 SOURCE_GROUP(ByteBuffer\\sources FILES ${ByteBuffer_Source})
+SOURCE_GROUP(StringArray\\headers FILES ${StringArray_Header})
+SOURCE_GROUP(StringArray\\sources FILES ${StringArray_Source})
 SOURCE_GROUP(Json\\headers FILES ${Json_Header})
 SOURCE_GROUP(Json\\sources FILES ${Json_Source})
 
@@ -186,6 +201,8 @@ SET(SRC
         ${TinyStringUtil_Source}
         ${ByteBuffer_Header}
         ${ByteBuffer_Source}
+        ${StringArray_Header}
+        ${StringArray_Source}
         ${Json_Header}
         ${Json_Source}
         )
