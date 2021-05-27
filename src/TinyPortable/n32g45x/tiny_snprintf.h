@@ -15,7 +15,6 @@
 #ifndef __TINY_SNPRINTF_N32G45X_H__
 #define __TINY_SNPRINTF_N32G45X_H__
 
-#include <sys/types.h>
 
 #define tiny_snprintf            snprintf
 

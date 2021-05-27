@@ -16,7 +16,5 @@
 #define __TINY_TIME_N32G45X_H__
 
 
-//#include <sys/time.h>
-
 
 #endif /* __TINY_TIME_N32G45X_H__ */

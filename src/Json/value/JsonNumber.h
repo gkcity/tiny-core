@@ -32,3 +32,4 @@ void JsonNumber_Delete(_IN_ JsonNumber *thiz);
 TINY_END_DECLS
 
 #endif /* __JSON_NUMBER_H__ */
+

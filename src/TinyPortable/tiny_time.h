@@ -40,16 +40,13 @@
 
 TINY_BEGIN_DECLS
 
+//TINY_API
+//int tiny_gettimeofday(struct timeval *tv, void *tz);
+
 TINY_API
-
-int tiny_gettimeofday(struct timeval *tv, void *tz);
-
-TINY_API
-
 uint64_t tiny_current_microsecond(void);
 
 TINY_API
-
 int tiny_getstrtime(char buf[], size_t len);
 
 

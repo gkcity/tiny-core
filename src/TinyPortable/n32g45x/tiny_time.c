@@ -27,10 +27,10 @@ uint64_t tiny_current_microsecond(void)
     return 0;
 }
 
-int tiny_gettimeofday(struct timeval *tv, void *tz)
-{
-    return gettimeofday(tv, tz);
-}
+//int tiny_gettimeofday(struct timeval *tv, void *tz)
+//{
+//    return gettimeofday(tv, tz);
+//}
 
 int tiny_getstrtime(char buf[], size_t len)
 {
