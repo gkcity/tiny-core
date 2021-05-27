@@ -5,7 +5,6 @@
 #-----------------------------------------------------------------------------
 
 SET(Header
-        tiny_inet.h
         tiny_malloc.h
         tiny_strdup.h
         tiny_snprintf.h

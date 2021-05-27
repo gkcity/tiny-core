@@ -22,6 +22,8 @@
     #include "esp8266/tiny_log_impl.h"
 #elif defined(MT7697)
     #include "mt7697/tiny_log_impl.h"
+#elif defined(N32G45X)
+    #include "n32g45x/tiny_log_impl.h"
 #elif defined(__OPENWRT_MT7688__)
     #include "openwrt_mt7688/tiny_log_impl.h"
 #elif defined(__LINUX__)
